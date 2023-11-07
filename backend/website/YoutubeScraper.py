@@ -8,6 +8,7 @@ import os
 
 import googleapiclient.discovery
 from .Comment import Comment
+from pathlib import Path
 
 
 def Scraper():
@@ -17,7 +18,7 @@ def Scraper():
 
     api_service_name = "youtube"
     api_version = "v3"
-    DEVELOPER_KEY = "AIzaSyBCP0Ab51R176kYVG9yDc9pPkpzegJAE-0"
+    DEVELOPER_KEY = Path('./backend/website/apikey.txt').read_text()
 
     # Honestly, don't ask me how the api works. I just know this gets me what I want
     youtube = googleapiclient.discovery.build(
