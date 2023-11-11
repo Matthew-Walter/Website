@@ -28,14 +28,15 @@ class App extends Component {
             <p className="introductionText">
               I'm Matthew Walter, a recent Computer Science graduate from Rowan
               University. All of the code for this website was written by hand
-              by me using python flask and React, and runs on an AWS instance.
-              No AI or website builing service required. Graphic design isn't my
-              strong suit, Back end design is my strength, but if I have help
-              deciding how a website should look I can build it. I've done work
-              building games in Unity, and while it's mostly unrelated I have a
-              youtube channel that I work on in my spare time. There are a few
-              displays of things that I've worked on down below, and links to
-              various ways to contact me at the bottom of the page.
+              by me using python flask and React, and runs on an AWS EC2
+              instance. No AI or website builing service required. Graphic
+              design isn't my strong suit, Back end design is my strength, but
+              if I have help deciding how a website should look I can build it.
+              I've done work building games in Unity, and while it's mostly
+              unrelated I have a youtube channel that I work on in my spare
+              time. There are a few displays of things that I've worked on down
+              below, and links to various ways to contact me at the bottom of
+              the page.
             </p>
           </div>
         </div>
