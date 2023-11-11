@@ -50,6 +50,8 @@ body {
   height: 700px;
   width: 33.3%;
   float: left;
+  align-items: center;
+  align-content: center;
 }
 .div2 {
   align-items: center;
@@ -131,6 +133,12 @@ body {
 
 .container {
   overflow: hidden;
+}
+
+.youtubepfp {
+  padding-left: 17%;
+  height: 400px;
+  align-self: center;
 }
 
 .crystalenginelogo {

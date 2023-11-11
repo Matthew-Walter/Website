@@ -28,29 +28,35 @@ class App extends Component {
             <p className="introductionText">
               I'm Matthew Walter, a recent Computer Science graduate from Rowan
               University. All of the code for this website was written by hand
-              by me using python flask and React, no AI or website builing
-              service required. Graphic design isn't my strong suit, Back end
-              design is my strength, but if I have help deciding how a website
-              should look I can build it. I've done work building games in
-              Unity, and while it's mostly unrelated I have a youtube channel
-              that I work on in my spare time. There are a few displays of
-              things that I've worked on down below, and links to various ways
-              to contact me at the bottom of the page.
+              by me using python flask and React, and runs on an AWS instance.
+              No AI or website builing service required. Graphic design isn't my
+              strong suit, Back end design is my strength, but if I have help
+              deciding how a website should look I can build it. I've done work
+              building games in Unity, and while it's mostly unrelated I have a
+              youtube channel that I work on in my spare time. There are a few
+              displays of things that I've worked on down below, and links to
+              various ways to contact me at the bottom of the page.
             </p>
           </div>
         </div>
         <div className="div1">
           <p className="introductionText">
-            This is a quick demonstration of some backend work. It pulls the
-            most recent 50 commments from{" "}
-            <a href="https://youtu.be/GHBGKBPwQ1Y">this video,</a> and displays
-            them.
+            <a href="https://www.youtube.com/channel/UCLNnaOkDN_hqO9W6GGysUyA">
+              This{" "}
+            </a>
+            is a link to my YouTube channel. While it's not Computer Science
+            related, it should hopefully still show that I can work dilligently
+            on my own if needed.
           </p>
-          <div className="container">
+          <a href="https://www.youtube.com/channel/UCLNnaOkDN_hqO9W6GGysUyA">
+            <img src={require("./Youtubepfp.png")} className="youtubepfp"></img>
+          </a>
+
+          {/* <div className="container">
             <div className="commentWrapperDiv">
               <Comments></Comments>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="div2">
           <p className="introductionText">
